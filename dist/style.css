@@ -1,0 +1,85 @@
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+  }
+  
+
+
+
+html {
+    
+    
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    font-weight: 900;
+    font-size: 20px;
+    color: whitesmoke;
+    
+  }
+
+
+
+
+
+
+
+  body {
+      background-color: black;
+    
+    background-size: 340px, auto;
+min-height: calc(100vh - 100px);
+margin: 30px;
+/* background: white; */
+background-attachment: fixed;
+
+}
+.header{
+    margin-left:2%;
+    background: url(../images/hammer.jpg) left top no-repeat ;
+    background-size: cover;
+    height:90vh;
+    max-width:96%;
+    box-shadow: 0 0 8px 8px black inset;
+    background-position: top center;
+    background-attachment: fixed;
+    
+
+}
+.headertext{
+    text-shadow: brown 2px 2px;
+    
+
+}
+.nav{
+    text-align: center;
+    
+    bottom:0;
+    
+}
+.tab{
+    border: none;
+    color: white;
+    background: black;
+    font-size: larger;
+
+}
+
+
+
+.about{
+
+    display: flex;
+    align-items: center;
+    height:85vh;
+    
+}
+.imgbox{
+    background: url(../images/attente_mid.jpg) left top no-repeat ;
+    background-size: 100%;
+    min-height:100%;
+    width:50%;
+    background-position: center;
+    box-shadow: 0 0 8px 8px black inset
+}
